@@ -70,3 +70,96 @@ The reconnaissance workflow followed a structured, non-intrusive approach:
 
 ## Repository Structure
 
+---
+
+### Domain Registration
+- Domain registration metadata retrieved from WHOIS database
+- Registrar: MarkMonitor Inc.
+- Authoritative nameservers identified
+- DNS delegation to Oracle Cloud infrastructure
+
+### DNS Infrastructure
+- Primary DNS records enumerated (A, AAAA, MX, TXT, CNAME)
+- Mail server configuration reviewed
+- SPF and domain verification records documented
+
+### Certificate Transparency
+- Public certificate records reviewed from transparency logs
+- Wildcard certificate (*.tesla.com) identified
+- Certificate issuers and validity periods documented
+
+### Passive DNS Analysis
+- Publicly accessible DNS records examined
+- Publicly indexed subdomains identified
+- No unauthorized queries or zone transfers performed
+
+---
+
+## Scope & Ethical Boundaries
+
+### ✅ Activities Conducted
+- WHOIS queries on public registries
+- DNS record enumeration
+- Certificate transparency log analysis
+- Passive DNS database searches
+- Public documentation review
+
+### ❌ Activities NOT Conducted
+- Port scanning or service enumeration
+- Vulnerability scanning or assessment
+- Exploitation or proof-of-concept attacks
+- Credential testing or brute-force attacks
+- Social engineering attempts
+- Unauthorized network access
+- Active reconnaissance of any kind
+
+**Legal Compliance:** This assessment was conducted in accordance with applicable laws and ethical guidelines. All data sources are publicly accessible and require no special permissions to query.
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- **Passive Reconnaissance:** Understanding information gathering without target interaction
+- **Open Source Intelligence (OSINT):** Leveraging public sources for security intelligence
+- **DNS Analysis:** Interpreting DNS records and infrastructure
+- **Domain Registration Research:** Analyzing WHOIS and registrar data
+- **Certificate Transparency:** Understanding SSL/TLS certificate ecosystems
+- **Security Documentation:** Professional report writing and evidence presentation
+- **Ethical Hacking:** Maintaining compliance with legal and ethical boundaries
+- **Industry Best Practices:** Following professional penetration testing standards
+
+---
+
+## Disclaimer
+
+**Educational Purpose:** This repository has been created solely for educational purposes as part of the Growfinix Cybersecurity Internship program.
+
+**Public Data Only:** All information presented in this repository was obtained from publicly accessible sources and databases. No unauthorized access, intrusion, or hacking of any kind was performed.
+
+**No Vulnerabilities Claimed:** This project does not claim the existence of vulnerabilities, security weaknesses, or unauthorized access to Tesla or any organization.
+
+**Passive Assessment:** This represents a passive reconnaissance exercise and does not constitute an authorized security assessment or penetration test.
+
+**Usage:** This repository is intended for educational and legitimate security research purposes only. Unauthorized access to computer systems is illegal.
+
+---
+
+## Author
+
+**Khushal Mudgil**  
+Cybersecurity Internship - Growfinix  
+BCA Student | Security Researcher
+
+---
+
+## License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+---
+
+⭐ If you found this repository helpful, consider giving it a star.
+
+*Last Updated: July 2026*
