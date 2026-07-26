@@ -1,0 +1,50 @@
+# Certificate Transparency Enumeration - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ theHarvester -d tesla.com -b certspotter
+
+[*] Target: tesla.com
+[*] Data Source: CertSpotter
+[*] Searching CertSpotter...
+[*] Processing results...
+
+---
+
+RESULTS SUMMARY:
+
+Hosts Found:        1
+Email Addresses:    0
+Data Source Status: Query Completed
+
+---
+
+HOSTS DISCOVERED:
+
+*.tesla.com
+
+---
+
+CERTIFICATE ANALYSIS:
+
+1. Wildcard Certificate Identified:
+   - Certificate: *.tesla.com
+   - Type: Wildcard SSL/TLS certificate
+   - Source: Public Certificate Transparency logs
+   - Scope: Covers all first-level subdomains
+
+2. Implications:
+   - Allows multiple subdomains to use same certificate
+   - Centralized certificate management approach
+   - Does not confirm existence of specific subdomains
+
+---
+
+ASSESSMENT NOTES:
+
+- Information from public Certificate Transparency logs
+- Results represent publicly logged certificates only
+- Wildcard certificate is common enterprise practice
+
+End of theHarvester CertSpotter Output
