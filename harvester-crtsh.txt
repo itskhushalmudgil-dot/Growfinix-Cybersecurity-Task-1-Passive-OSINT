@@ -1,0 +1,35 @@
+# Certificate Transparency Enumeration - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ theHarvester -d tesla.com -b crtsh
+
+[*] Target: tesla.com
+[*] Data Source: CRT.sh (Certificate Transparency Logs)
+[*] Searching CRT.sh...
+[*] Processing results...
+
+---
+
+RESULTS SUMMARY:
+
+Hosts Found:        0
+Email Addresses:    0
+Data Source Status: Query Completed
+
+---
+
+ASSESSMENT NOTES:
+
+1. Query Execution:
+   - CRT.sh database successfully queried
+   - Query completed without errors
+   - Data source response received
+
+2. Result Interpretation:
+   - Absence of results doesn't indicate absence of certificates
+   - Different aggregators maintain varying datasets
+   - Cross-verification with alternative sources recommended
+
+End of theHarvester CRT.sh Output
