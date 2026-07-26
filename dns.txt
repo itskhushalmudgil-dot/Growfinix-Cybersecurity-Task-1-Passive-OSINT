@@ -1,0 +1,51 @@
+# DNS Enumeration - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ dig tesla.com A
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tesla.com A
+
+;; ANSWER SECTION:
+tesla.com.		300	IN	A	[Public IPv4 Address]
+tesla.com.		300	IN	A	[Public IPv4 Address]
+tesla.com.		300	IN	A	[Public IPv4 Address]
+tesla.com.		300	IN	A	[Public IPv4 Address]
+
+---
+
+$ dig tesla.com MX
+
+;; ANSWER SECTION:
+tesla.com.		300	IN	MX	10 mxa.tesla.com.
+tesla.com.		300	IN	MX	20 mxb.tesla.com.
+
+---
+
+$ dig tesla.com TXT
+
+;; ANSWER SECTION:
+tesla.com.		300	IN	TXT	"v=spf1 include:tesla-domains.com ~all"
+tesla.com.		300	IN	TXT	"google-site-verification=[verification-token]"
+
+---
+
+$ dig tesla.com NS
+
+;; ANSWER SECTION:
+tesla.com.		172800	IN	NS	ns1.p201.dns.oraclecloud.net.
+tesla.com.		172800	IN	NS	ns2.p201.dns.oraclecloud.net.
+tesla.com.		172800	IN	NS	ns3.p201.dns.oraclecloud.net.
+tesla.com.		172800	IN	NS	ns4.p201.dns.oraclecloud.net.
+
+---
+
+KEY OBSERVATIONS:
+
+1. A Records: Multiple addresses for load balancing
+2. MX Records: Mail server configuration with priority levels
+3. TXT Records: SPF policy and domain verification tokens
+4. NS Records: DNS delegated to Oracle Cloud with 4 nameservers
+
+End of DNS Enumeration
