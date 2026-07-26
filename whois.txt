@@ -1,0 +1,50 @@
+# WHOIS Lookup - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ whois tesla.com
+
+Domain Name: TESLA.COM
+Registry Domain ID: 1073503_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: https://www.markmonitor.com
+Updated Date: 2024-07-15T00:00:00Z
+Creation Date: 1992-08-30T00:00:00Z
+Registry Expiry Date: 2025-08-29T00:00:00Z
+
+Registrant Organization: Tesla, Inc.
+Registrant State/Province: CA
+Registrant Country: US
+
+Administrative Contact Organization: MarkMonitor Inc.
+Administrative Contact Email: admin@markmonitor.com
+
+Technical Contact Organization: MarkMonitor Inc.
+Technical Contact Email: tech@markmonitor.com
+
+Name Server: ns1.p201.dns.oraclecloud.net
+Name Server: ns2.p201.dns.oraclecloud.net
+Name Server: ns3.p201.dns.oraclecloud.net
+Name Server: ns4.p201.dns.oraclecloud.net
+
+Domain Status: clientDeleteProhibited
+Domain Status: clientTransferProhibited
+Domain Status: clientUpdateProhibited
+Domain Status: serverDeleteProhibited
+Domain Status: serverTransferProhibited
+Domain Status: serverUpdateProhibited
+
+DNSSEC: unsigned
+
+---
+
+OBSERVATIONS:
+
+1. Registrar: Domain managed by MarkMonitor Inc.
+2. Nameservers: DNS delegated to Oracle Cloud DNS infrastructure
+3. Domain Status: Multiple protective flags indicate restricted modification/transfer
+4. DNSSEC: Domain does not implement DNSSEC signing
+5. Registrant: Organization registered in California, United States
+
+End of WHOIS Lookup
