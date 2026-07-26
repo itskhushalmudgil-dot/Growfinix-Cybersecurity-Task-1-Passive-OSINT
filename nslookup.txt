@@ -1,0 +1,49 @@
+# DNS Resolution - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ nslookup tesla.com
+
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	tesla.com
+Address: [Public IPv4 Address]
+Address: [Public IPv4 Address]
+Address: [Public IPv4 Address]
+Address: [Public IPv4 Address]
+Name:	tesla.com
+Address: [Public IPv6 Address]
+Address: [Public IPv6 Address]
+
+---
+
+QUERY ANALYSIS:
+
+1. Resolution Method:
+   - Used default system DNS resolver
+   - Non-authoritative response (cached/recursive)
+   - Query completed successfully
+
+2. IPv4 Resolution:
+   - Multiple IPv4 addresses returned
+   - Indicates load balancing configuration
+   - Standard practice for high-traffic domains
+
+3. IPv6 Support:
+   - AAAA records present and resolvable
+   - Modern dual-stack network infrastructure
+   - IPv6 addresses publicly available
+
+---
+
+ASSESSMENT NOTES:
+
+- Domain resolution through standard DNS mechanism
+- Results consistent with public DNS infrastructure
+- Dual-stack (IPv4 and IPv6) configuration observed
+- No unauthorized DNS operations performed
+
+End of DNS Resolution
