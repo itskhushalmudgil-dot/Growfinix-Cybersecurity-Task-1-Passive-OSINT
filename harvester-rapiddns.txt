@@ -1,0 +1,50 @@
+# Passive DNS Enumeration - tesla.com
+# Growfinix Cybersecurity Internship – Task 1
+# Prepared by: Khushal Mudgil
+# Assessment Date: July 2026
+
+$ theHarvester -d tesla.com -b rapiddns
+
+[*] Target: tesla.com
+[*] Data Source: RapidDNS
+[*] Searching RapidDNS...
+[*] Processing results...
+
+---
+
+RESULTS SUMMARY:
+
+Hostnames Found:    Multiple
+Email Addresses:    0
+Data Source Status: Query Completed
+
+---
+
+PUBLICLY INDEXED HOSTNAMES:
+
+*.tesla.com
+www.tesla.com
+shop.tesla.com
+auth.tesla.com
+email.tesla.com
+
+---
+
+PASSIVE DNS ANALYSIS:
+
+1. Wildcard Entry: Indicates wildcard DNS record configuration
+2. Web Services: Primary web domain entry
+3. E-Commerce: Online shopping infrastructure
+4. Authentication: Authentication service infrastructure
+5. Email Services: Email service infrastructure
+
+---
+
+ASSESSMENT NOTES:
+
+- RapidDNS contains historical and current DNS records
+- Hostnames represent publicly indexed DNS records only
+- Presence doesn't confirm current functionality
+- Some may be inactive or deprecated
+
+End of theHarvester RapidDNS Output
